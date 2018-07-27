@@ -1,11 +1,10 @@
-TornadoFX Table Demo
-====================
+TornadoFX SingleAssign Demo
+===========================
 
-Show data in table.
+Use `SingleAssign` to make sure a property can be only assigned one.
 
-Run `Hello.kt` file in your IDE.
+If you assign multi-times, it will throw Exception:
 
-Resources
----------
-
-<https://stackoverflow.com/questions/51484443/how-to-show-pojo-properties-in-tornadofx-tableview/51484995>
+```
+java.lang.Exception: Value has already been assigned!
+```
